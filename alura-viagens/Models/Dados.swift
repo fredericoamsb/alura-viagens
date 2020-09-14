@@ -9,6 +9,7 @@
 import Foundation
 
 let viagens: [Viagem] = load("viagens.json")
+let pacotesDeViagens: [PacoteDeViagem] = load("pacotes-viagens.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
